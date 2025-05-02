@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","14284","Login inválido - Informe a senha!","","Fri May 02 17:48:26 GMT 2025","passed","Fri May 02 17:48:41 GMT 2025","","","",""
+"","806","Login inválido - Informe o usuário!","","Fri May 02 17:48:41 GMT 2025","passed","Fri May 02 17:48:42 GMT 2025","","","",""
+"","571","Login inválido - Usuário e/ou senha incorretos!","","Fri May 02 17:48:42 GMT 2025","passed","Fri May 02 17:48:42 GMT 2025","","","",""
+"","574","Login inválido - Informe usuário e senha!","","Fri May 02 17:48:42 GMT 2025","passed","Fri May 02 17:48:43 GMT 2025","","","",""
