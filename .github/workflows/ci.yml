@@ -10,7 +10,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     container:
-      image: mcr.microsoft.com/playwright/java:v1.49.0-noble
+      image: mcr.microsoft.com/playwright/java:v1.43.0-noble
 
     steps:
       - name: Checkout repository
@@ -21,8 +21,7 @@ jobs:
 
       - name: Install Playwright Browsers
         run: |
-          # Use the built classpath to run the CLI install command
-          java -cp "$(cat cp.txt)" com.microsoft.playwright.CLI install
+          mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps"
 
       - name: Run Tests
         run: mvn clean verify test
