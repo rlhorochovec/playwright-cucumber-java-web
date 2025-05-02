@@ -15,8 +15,10 @@ jobs:
           distribution: 'temurin'
           cache: maven
 
-      - name: Playwright setup libs
-        run: sudo apt-get update && sudo apt-get install -y libxtst6 libnss3 libatk-bridge2.0-0 libatspi2.0-0
+      - name: Install playwright dependencies
+        run: |
+          sudo npx playwright install-deps
+          npx playwright install
 
       - name: Build and Run Tests with Maven
         run: mvn clean verify test
