@@ -17,8 +17,7 @@ jobs:
 
       - name: Install playwright dependencies
         run: |
-          sudo npx playwright install-deps
-          npx playwright install
+          sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps"
 
       - name: Build and Run Tests with Maven
         run: mvn clean verify test
