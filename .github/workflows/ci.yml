@@ -1,25 +1,28 @@
 name: playwright-cucumber-java-web
+
 on:
   push:
-    branches: [ "develop", "main" ]
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
+    container:
+      image: mcr.microsoft.com/playwright/java:v1.49.0-noble
+
     steps:
-      - uses: actions/checkout@v3
-      - name: Set up JDK 17
-        uses: actions/setup-java@v3
-        with:
-          java-version: '17'
-          distribution: 'temurin'
-          cache: maven
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - name: Install playwright dependencies
+      - name: Build project dependencies classpath
+        run: mvn dependency:build-classpath -Dmdep.outputFile=cp.txt
+
+      - name: Install Playwright Browsers
         run: |
-          sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps"
+          # Use the built classpath to run the CLI install command
+          java -cp "$(cat cp.txt)" com.microsoft.playwright.CLI install
 
-      - name: Build and Run Tests with Maven
+      - name: Run Tests
         run: mvn clean verify test
-
-      
