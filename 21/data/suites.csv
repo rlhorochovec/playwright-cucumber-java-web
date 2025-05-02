@@ -1,0 +1,13 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"  Eu como usuário do sistema
+  Desejo realizar o login no sistema
+  Para realizar minhas tarefas","529","Login inválido - Informe usuário e senha!","","Fri May 02 19:26:04 GMT 2025","passed","Fri May 02 19:26:04 GMT 2025","","Login","Login inválido - Informe usuário e senha!",""
+"  Eu como usuário do sistema
+  Desejo realizar o login no sistema
+  Para realizar minhas tarefas","563","Login inválido - Informe o usuário!","","Fri May 02 19:26:03 GMT 2025","passed","Fri May 02 19:26:03 GMT 2025","","Login","Login inválido - Informe o usuário!",""
+"  Eu como usuário do sistema
+  Desejo realizar o login no sistema
+  Para realizar minhas tarefas","13180","Login inválido - Informe a senha!","","Fri May 02 19:25:49 GMT 2025","passed","Fri May 02 19:26:03 GMT 2025","","Login","Login inválido - Informe a senha!",""
+"  Eu como usuário do sistema
+  Desejo realizar o login no sistema
+  Para realizar minhas tarefas","528","Login inválido - Usuário e/ou senha incorretos!","","Fri May 02 19:26:03 GMT 2025","passed","Fri May 02 19:26:04 GMT 2025","","Login","Login inválido - Usuário e/ou senha incorretos!",""
