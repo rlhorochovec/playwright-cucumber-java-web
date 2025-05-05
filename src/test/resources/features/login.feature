@@ -14,3 +14,4 @@ Funcionalidade: Login
       |         | user   | Informe o usuário!             |
       | admin   | user   | Usuário e/ou senha incorretos! |
       |         |        | Informe usuário e senha!       |
+      |         |        | FALHA PROPOSITAL!              |
