@@ -1,0 +1,6 @@
+"BROKEN","EPIC","FAILED","FEATURE","PASSED","SKIPPED","STORY","UNKNOWN"
+"0","","1","Login","0","0","Login inválido - FALHA PROPOSITAL!","0"
+"0","","0","Login","1","0","Login inválido - Informe a senha!","0"
+"0","","0","Login","1","0","Login inválido - Informe usuário e senha!","0"
+"0","","0","Login","1","0","Login inválido - Informe o usuário!","0"
+"0","","0","Login","1","0","Login inválido - Usuário e/ou senha incorretos!","0"
