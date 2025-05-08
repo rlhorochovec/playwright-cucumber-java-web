@@ -1,0 +1,16 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"  Eu como usuário do sistema
+  Desejo realizar o login no sistema
+  Para realizar minhas tarefas","17786","Login inválido - Informe a senha!","","Thu May 08 13:00:59 GMT 2025","passed","Thu May 08 13:01:17 GMT 2025","","Login","Login inválido - Informe a senha!",""
+"  Eu como usuário do sistema
+  Desejo realizar o login no sistema
+  Para realizar minhas tarefas","572","Login inválido - Informe o usuário!","","Thu May 08 13:01:17 GMT 2025","passed","Thu May 08 13:01:18 GMT 2025","","Login","Login inválido - Informe o usuário!",""
+"  Eu como usuário do sistema
+  Desejo realizar o login no sistema
+  Para realizar minhas tarefas","576","Login inválido - Informe usuário e senha!","","Thu May 08 13:01:18 GMT 2025","passed","Thu May 08 13:01:19 GMT 2025","","Login","Login inválido - Informe usuário e senha!",""
+"  Eu como usuário do sistema
+  Desejo realizar o login no sistema
+  Para realizar minhas tarefas","562","Login inválido - Usuário e/ou senha incorretos!","","Thu May 08 13:01:18 GMT 2025","passed","Thu May 08 13:01:18 GMT 2025","","Login","Login inválido - Usuário e/ou senha incorretos!",""
+"  Eu como usuário do sistema
+  Desejo realizar o login no sistema
+  Para realizar minhas tarefas","5568","Login inválido - FALHA PROPOSITAL!","","Thu May 08 13:01:19 GMT 2025","failed","Thu May 08 13:01:24 GMT 2025","","Login","Login inválido - FALHA PROPOSITAL!",""
