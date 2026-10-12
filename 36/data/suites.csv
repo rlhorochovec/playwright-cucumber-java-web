@@ -1,0 +1,16 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"  Eu como usuário do sistema
+  Desejo realizar o login no sistema
+  Para realizar minhas tarefas","635","Login inválido - Informe usuário e senha!","","2026-10-12","passed","2026-10-12","","Login","Login inválido - Informe usuário e senha!",""
+"  Eu como usuário do sistema
+  Desejo realizar o login no sistema
+  Para realizar minhas tarefas","5608","Login inválido - FALHA PROPOSITAL!","","2026-10-12","failed","2026-10-12","","Login","Login inválido - FALHA PROPOSITAL!",""
+"  Eu como usuário do sistema
+  Desejo realizar o login no sistema
+  Para realizar minhas tarefas","627","Login inválido - Usuário e/ou senha incorretos!","","2026-10-12","passed","2026-10-12","","Login","Login inválido - Usuário e/ou senha incorretos!",""
+"  Eu como usuário do sistema
+  Desejo realizar o login no sistema
+  Para realizar minhas tarefas","621","Login inválido - Informe o usuário!","","2026-10-12","passed","2026-10-12","","Login","Login inválido - Informe o usuário!",""
+"  Eu como usuário do sistema
+  Desejo realizar o login no sistema
+  Para realizar minhas tarefas","14095","Login inválido - Informe a senha!","","2026-10-12","passed","2026-10-12","","Login","Login inválido - Informe a senha!",""
